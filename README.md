@@ -1,8 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
 # E-Commerce Catalog Management System
 
 A full-stack product catalog management application built with **Next.js, MongoDB, and Mongoose**. The application provides a dashboard for creating, viewing, editing, deleting, searching, and filtering products.
@@ -225,27 +220,6 @@ Replace the placeholders with your MongoDB Atlas credentials. Never commit `.env
 9. Client-server communication
 10. Search, filtering, and responsive UI design
 
-## Viva Questions
-
-### What is MongoDB?
-
-MongoDB is a NoSQL document database that stores data in flexible BSON documents.
-
-### What is Mongoose?
-
-Mongoose is an ODM library that provides schemas, models, validation, and query methods for MongoDB.
-
-### What does CRUD mean?
-
-`C`reate, `R`ead, `U`pdate, and `D`elete.
-
-### Why is the SKU unique?
-
-The SKU identifies a product in the catalog, so a unique constraint prevents duplicate product identifiers.
-
-### Why are environment variables used?
-
-They keep configuration such as the MongoDB connection string outside the source code and repository.
 
 ## Author
 
